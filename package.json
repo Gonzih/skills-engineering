@@ -1,0 +1,34 @@
+{
+  "name": "@gonzih/skills-engineering",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Claude Code skill suite for software engineers, tech leads, and engineering managers",
+  "main": "install.js",
+  "bin": {
+    "skills-engineering": "./install.js"
+  },
+  "scripts": {
+    "postinstall": "node install.js"
+  },
+  "files": [
+    "skills/",
+    "install.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "skills",
+    "engineering",
+    "architecture",
+    "postmortem",
+    "tech-spec",
+    "code-review"
+  ],
+  "author": "gonzih",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
