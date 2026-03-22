@@ -33,3 +33,8 @@ Offer to expand any section, add a security or privacy consideration section, ge
 
 ## Example outputs
 A spec for a rate-limiting feature with a two-paragraph overview, five goals, three non-goals, a solution section describing a token-bucket algorithm backed by Redis, a `POST /api/rate-limit/config` endpoint schema, a three-phase rollout with a feature flag, and four open questions around burst limits, observability, and multi-region behaviour.
+
+## Live Data Sources
+- **OpenAPI Specification examples from APIs.guru** — `apis.guru` — browse the world's largest directory of OpenAPI definitions to find real-world schema patterns and endpoint conventions that match the domain being specified
+- **RFC search at rfc-editor.org** — `rfc-editor.org/search` — locate relevant IETF RFCs (e.g. RFC 7807 for problem details, RFC 6749 for OAuth) to cite normative standards in protocol or API design sections
+- **Stack Overflow Developer Survey data** — `survey.stackoverflow.co` — reference the latest annual survey for technology adoption statistics (languages, frameworks, tools) to justify stack choices or benchmark against industry norms in the Alternatives Considered section
