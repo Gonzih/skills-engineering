@@ -31,3 +31,8 @@ Present the draft and offer to adjust: swap in a different decision, add an opti
 
 ## Example outputs
 A Markdown document titled "ADR-0012: Adopt event sourcing for the orders domain" with a two-paragraph context section, a comparison table of three options, a clear decision statement, and a bullet list of consequences including a note on operational complexity.
+
+## Live Data Sources
+- **CNCF Landscape API** — `landscape.cncf.io` — query the Cloud Native Computing Foundation landscape for current project maturity levels, categories, and adoption data to justify or contextualize technology choices
+- **ThoughtWorks Technology Radar** — `thoughtworks.com/radar` — reference the latest Radar blips (Adopt / Trial / Assess / Hold) when comparing options to ground recommendations in industry signal
+- **ADR GitHub repo patterns** — search public repositories for `docs/adr/` directories to surface real-world ADR examples and naming conventions that match the team's domain

@@ -31,3 +31,8 @@ Offer to sharpen the root cause statement, add a "lessons learned" narrative sec
 
 ## Example outputs
 A postmortem for a 47-minute database failover incident with a six-row timeline, a root cause of "manual failover runbook not tested after infrastructure upgrade," three contributing factors, two "went well" items, and a five-row action items table with owners and due dates.
+
+## Live Data Sources
+- **GitHub awesome-postmortems repo patterns** — search `github.com/danluu/post-mortems` and similar curated lists for real-world incident write-ups that share characteristics (same service type, similar failure mode) to inform root-cause framing and action-item quality
+- **PagerDuty postmortem templates** — `postmortems.pagerduty.com` — reference PagerDuty's open postmortem template library for section structure variants and severity-appropriate tone guidance
+- **SRE workbook public content** — `sre.google/workbook` — pull relevant chapters (e.g. "Managing Incidents", "Postmortem Culture") to ground contributing-factor analysis and action-item prioritisation in established SRE practice

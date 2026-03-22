@@ -29,3 +29,8 @@ Offer to expand any section, add a migration or deploy note, or reformat the bri
 
 ## Example outputs
 A brief for a database schema migration PR with a two-sentence summary, five bullet points of key changes, three risk areas flagged (index drop, backfill script, ORM model sync), and a nine-item testing checklist including a rollback verification step.
+
+## Live Data Sources
+- **NVD CVE API** — `nvd.nist.gov/developers/vulnerabilities` — query the National Vulnerability Database for CVEs affecting dependencies or libraries present in the diff to automatically surface known security issues in risk areas
+- **OWASP Top 10 RSS** — `owasp.org` — pull the latest OWASP Top 10 feed to check whether any changes touch vectors (e.g. injection, broken auth, IDOR) that map to active high-priority risks
+- **Snyk vulnerability database patterns** — cross-reference package names and versions from `package.json`, `go.mod`, `requirements.txt`, or similar manifests against Snyk's advisory data to flag vulnerable dependency upgrades or introductions
